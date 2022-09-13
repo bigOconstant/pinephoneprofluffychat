@@ -47,3 +47,9 @@ echo "Done building fluffy chat, installing it to /opt/fluffychat"
 sudo cp -r ./build/linux/arm64/release/bundle/. /opt/fluffychat
 
 echo "Installing desktop icons" 
+
+wget -O /home/mobian/.local/share/applications/fluffychat.png https://github.com/bigOconstant/pinephoneprofluffychat/raw/master/fluffychat.png
+
+wget -O /home/mobian/.local/share/applications/fluffychat.desktop https://raw.githubusercontent.com/bigOconstant/pinephoneprofluffychat/master/fluffychat.desktop
+
+echo "Done with installation, you may need to reboot to see the icon"
