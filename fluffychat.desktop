@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=fluffychat
+Icon=/home/mobian/.local/share/applications/fluffychat.png
+Exec=/opt/fluffychat/fluffychat
