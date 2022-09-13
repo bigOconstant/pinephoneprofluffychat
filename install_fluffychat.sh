@@ -18,7 +18,7 @@ echo "Make directory for development"
 mkdir -p $HOME/development
 
 echo "Cloning flutter"
-git clone --depth 1 https://github.com/flutter/flutter.git $HOME/development/flutter;
+git clone https://github.com/flutter/flutter.git $HOME/development/flutter;
 
 
 cd $HOME/development/flutter \
