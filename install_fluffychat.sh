@@ -52,4 +52,8 @@ wget -O /home/mobian/.local/share/applications/fluffychat.png https://github.com
 
 wget -O /home/mobian/.local/share/applications/fluffychat.desktop https://raw.githubusercontent.com/bigOconstant/pinephoneprofluffychat/master/fluffychat.desktop
 
-echo "Done with installation, you may need to reboot to see the icon"
+echo "Done with installation, going down for a reboot in 4 seconds escape the script to cancel"
+
+sleep 4;
+
+sudo reboot;
